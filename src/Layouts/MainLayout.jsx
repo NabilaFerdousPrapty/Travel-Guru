@@ -1,9 +1,10 @@
 
 import { Outlet } from 'react-router-dom';
+import Navbar from '../Pages/Shared/Navbar/Navbar';
 const MainLayout = () => {
     return (
-        <div>
-            <h1>MAIN</h1>
+        <div className='max-w-6xl mx-auto'>
+            <Navbar></Navbar>
         <Outlet />
         </div>
     );
