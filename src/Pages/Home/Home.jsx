@@ -1,11 +1,13 @@
 
 import bg from '../../assets/Rectangle 1.png'
-
+import Slideing from '../../components/Slider/Slideing';
 const Home = () => {
     return (
         <div style={{backgroundImage:`url(${bg})`}}>
+<Slideing></Slideing>
           <div className="hero-content flex-col lg:flex-row-reverse">
    <div>
+    
    <div className="carousel rounded-box gap-4">
   <div className="carousel-item">
     <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" alt="Burger" />
